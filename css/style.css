@@ -1,0 +1,49 @@
+body {
+  background: transparent  no-repeat center center fixed; 
+}
+
+#right-part {
+  display: flex;
+  justify-content: flex-end;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  margin: 0px;
+  border: 0;
+  background-color: transparent;
+}
+
+.links-content {
+  display: flex;
+  align-items: center;
+}
+
+.links-header {
+  height: 85px;
+  margin-right: 100px;
+}
+
+.links-body {
+  height: 100%
+}
+
+.cards {
+  padding-top: 10%;
+  display: grid;
+  grid-gap: 10px;
+      grid-template-columns: 160px 160px;
+      color: #444;
+}
+
+.card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff0a;
+    height: 160px;
+    color: #fff;
+    padding: 20px;
+    font-size: 150%;
+}
