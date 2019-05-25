@@ -13,43 +13,59 @@
     <script src="js/bootstrap.min.js"></script>
     <script src="js/script.js"></script>
   </head>
-  <body style="background-image: url(img/bg.png);">
+  <body style="background-image: url(img/stars.png);">
       <nav class="navbar navbar-default links">
         <div class="container-fluid links-container">
           <div class="row links-row">
-            <div id="links-header" class="navbar-header col-xs-10 col-sm-5">
+            <div id="links-header" class="navbar-header col-xs-10 col-md-10 col-lg-5">
               <a href="#"><img class="logo-img" src="img/logo.png"></a>
             </div>
-            <div id="links-bars" class="col-xs-2">
+            <div id="links-bars" class="col-xs-2 col-md-2">
               <i class="fas fa-bars bars"></i>
             </div>
-            <div id="links-body" class="col-xs-12 col-sm-7 hide-middle">
+            <div id="links-body" class="col-xs-12 col-md-12 col-lg-7 hide-middle">
               <ul class="nav navbar-nav">
                 <li><a href="#">Главная</a></li>
-                <li><a href="#">Технологии</a></li>
-                <li><a href="#">График полётов</a></li>
+                <li><a href="#">Технология</a></li>
+                <li><a href="#">График полетов</a></li>
                 <li><a href="#">Гарантии</a></li>
                 <li><a href="#">О компании</a></li>
-                <li><a href="#">Полёты</a></li>
+                <li><a href="#">Контакты</a></li>
               </ul>
             </div>
           </div>
         </div>
       </nav>
-      <div class="container">
+      <div class="container-fluid main-container">
         <div class="row">
-          <!-- Левая половина -->
-          <div id="left-part" class="col-md-6">
-
-          </div>
           <!-- Правая половина -->
-          <div id="right-part" class="col-md-6">
+          <div id="right-part" class="col-sm-6 col-sm-push-6">
               <div class="cards">
-                <div class="card">A</div>
-                <div class="card">B</div>
-                <div class="card">C</div>
-                <div class="card">D</div>
+                <div class="card">мы<br><span class='card-num card-white'>1</span><br>на рынке</div>
+                <div class="card">гарантируем<br><span class='card-num'>50%<br></span>безопасность</div>
+                <div class="card">календарик за<br><span class='card-num card-white'>2001</span>
+                  <strong class='card-white'>г.</strong><br>в подарок</div>
+                <div class="card">путешествие<br><span class='card-num'>597<br></span>дней</div>
               </div>
+          </div>
+        
+          <!-- Левая половина -->
+          <div id="left-part" class="col-sm-6 col-sm-pull-6">
+            <img class="planet-img" src="img/planet.png">
+            <div class="move">
+              <div class='travel content'>
+                <span>Путешествие</span>
+              </div>
+              <div class='red-planet content'>
+                <span>на красную планету</span>
+              </div>
+              <div class="corners content">
+                  <div class="top right"></div>
+                  <div class="bottom left"></div>
+                  <button class="trip-btn">Начать путешествие</button>
+              </div>
+              <img class='btn-line content' src='img/line.png'>
+            </div>
           </div>
         </div>
       </div>
